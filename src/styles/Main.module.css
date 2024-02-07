@@ -1,0 +1,94 @@
+.main_container {
+  height: 100vh;
+  background-image: url("../assets/img/back.png");
+  background-size: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px 50px;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #ffffff71;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.header_avatar img {
+  width: 70px;
+}
+
+.header_content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header_content div p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.coin_count {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.coin_count p {
+  color: #fff;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.coin_count img {
+  width: 40px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  width: 93%;
+  position: absolute;
+  bottom: 30px;
+}
+
+.info_block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.info_block div {
+  display: flex;
+  align-items: center;
+}
+
+.info_block div img {
+  width: 30px;
+}
+
+.menu_btn {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.menu_btn img {
+  width: 100px;
+  height: 100px;
+  background: #ffffff71;
+  padding: 10px;
+  border-radius: 10px;
+}

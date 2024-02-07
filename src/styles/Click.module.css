@@ -1,0 +1,12 @@
+.coin_click {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  cursor: pointer;
+  perspective: 1000px;
+}
+
+.coin_click img {
+  width: 370px;
+  transition: transform 1s;
+}
